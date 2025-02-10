@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@500&display=swap");
+
+/* Variáveis globais */
+:root {
+    /* Cores */
+    --bg-body: #f0f5f2;
+    --bg-container: #ffffff;
+    --border-color-img: #cccccc;
+    --text-color-primary: #333333;
+    --text-color-secondary: #666666;
+    --text-color-accent: #ffcb0c;
+
+    /* Fontes */
+    --font-title: "Rubik", serif;
+    --font-body: "Montserrat", serif;
+
+    /* Espaçamentos */
+    --gap-sm: 0.5rem;
+    --gap-md: 1rem;
+    --gap-lg: 2rem;
+}
+
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: var(--bg-body);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2%;
+}
+
+/* Seção de avaliações */
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+    max-width: 500px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Título */
+.reviews__title {
+    font-family: var(--font-title);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Card de avaliação */
+.review {
+    background-color: var(--bg-container);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-body);
+    font-weight: 400;
+    gap: var(--gap-sm);
+    height: 450px;
+    max-width: 100%;    
+    overflow: hidden;
+    padding: 4.5%;
+    text-align: center;    
+}
+
+/* Imagem do hóspede */
+.review__image {
+    border-radius: 50%;
+    border: 2px solid var(--border-color-img);
+    height: 9.375rem; /* 150px */
+    width: 9.375rem;
+}
+
+/* Nome e detalhes */
+.review__name {
+    color: var(--text-color-primary);
+    margin-top: 0.625rem; /* 10px */
+}
+
+.review__age,
+.review__location,
+.review__score {
+    color: var(--text-color-secondary);    
+}
+
+.review__score {
+    font-weight: bold;
+}
+
+/* Estrelas da avaliação */
+.review__stars {
+    color: var(--text-color-accent);
+    font-size: 1.25rem;
+}
+
+/* Texto da avaliação */
+.review__text {
+    color: var(--text-color-primary);
+    font-style: italic;    
+    margin-top: var(--gap-md);
+}
+
+/* Botões de navegação */
+.review__buttons {
+    display: flex;
+    gap: var(--gap-lg);
+    justify-content: center;    
+    margin-top: auto;        
+}
+
+.review__button--prev,
+.review__button--next {
+    background: none;
+    border: none;
+    color: var(--text-color-secondary);
+    cursor: pointer;
+    font-size: 1rem;        
+}
+
+.review__button--prev:hover,
+.review__button--next:hover {
+    color: var(--text-color-primary);
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+
+    .reviews__title {
+        font-size: 1.75rem;
+    }
+
+    .review {
+        padding: 3%;
+        height: 380px;
+    }
+
+    .review__image {
+        height: 7.5rem; /* 120px */
+        width: 7.5rem;
+    }
+
+    .review__name {
+        font-size: 1.2rem;
+    }
+
+    .review__age,
+    .review__location,
+    .review__score {
+        font-size: 0.9rem;
+    }
+
+    .review__stars {
+        font-size: 1.1rem;
+    }
+
+    .review__text {
+        font-size: 0.8rem;
+    }
+
+    .review__button--prev,
+    .review__button--next {
+        font-size: 1rem;
+    }
+}

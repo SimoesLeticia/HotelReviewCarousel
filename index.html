@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Avaliações dos hóspedes</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body>
+        <main>
+            <section class="reviews">
+                <h1 class="reviews__title">Avaliações dos hóspedes</h2>
+                <article class="review">
+                    <figure class="review__figure">
+                        <img class="review__image" src="./assets/guest_01.png" alt="Foto do Hóspede">
+                    </figure>
+                    <h1 class="review__name">Maria da Silva</h3>
+                    <p class="review__age">30 anos</p>
+                    <p class="review__location">São Paulo, Brasil</p>
+                    <div class="review__rating">
+                        <span class="review__score">4.0</span>  
+                        <span class="review__stars">★★★★☆</span>                        
+                    </div>
+                    <p class="review__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus in augue eu congue. Aliquam pharetra metus elit, et laoreet nisl egestas ac. Aliquam bibendum sapien eu sapien hendrerit...”</p>
+                    <div class="review__buttons">
+                        <button class="review__button--prev" aria-label="Avaliação anterior">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="review__button--next" aria-label="Próxima avaliação">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </article>
+            </section>
+        </main>        
+        <script type="module" src="./scripts/app.js"></script>
+    </body>
+</html>
