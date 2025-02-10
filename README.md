@@ -2,6 +2,11 @@
 Este projeto foi criado com o intuito de praticar conceitos de `JavaScript`, `HTML` e `CSS`. 
 O projeto apresenta um carrossel interativo que exibe avaliações de hóspedes de um hotel. Cada avaliação é exibida em um card, contendo informações sobre o hóspede, sua nota e seu comentário sobre a estadia.
 
+### Deploy
+O projeto está disponível online no seguinte link:
+
+[Visite o site](https://hotel-review-carousel.vercel.app/)  
+
 ## Funcionalidades
 - **Carrossel de Avaliações**: Permite a navegação pelas avaliações dos hóspedes por meio de setas de controle.
 - **Cards de Avaliação**: Cada card exibe o nome, idade, origem, nota e comentário do hóspede.
@@ -33,5 +38,7 @@ HotelReviewCarousel/
 
 ## Contribuição 
 Contribuições são sempre bem-vindas! Se você tem sugestões de melhorias, encontrou algum bug ou simplesmente quer dizer "olá 👋🏽", sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## https://hotel-review-carousel.vercel.app
 
 **Cada linha de código é um passo para algo incrível — Continue explorando e aprendendo!** 🚀👩🏽‍💻
