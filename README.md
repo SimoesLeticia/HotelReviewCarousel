@@ -39,6 +39,4 @@ HotelReviewCarousel/
 ## Contribuição 
 Contribuições são sempre bem-vindas! Se você tem sugestões de melhorias, encontrou algum bug ou simplesmente quer dizer "olá 👋🏽", sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## https://hotel-review-carousel.vercel.app
-
 **Cada linha de código é um passo para algo incrível — Continue explorando e aprendendo!** 🚀👩🏽‍💻
